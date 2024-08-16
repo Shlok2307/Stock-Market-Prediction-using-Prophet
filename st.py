@@ -2,6 +2,9 @@
 import streamlit as st
 from datetime import date
 
+import numpy as np
+np.float_ = np.float64
+
 import yfinance as yf
 from prophet import Prophet
 from prophet.plot import plot_plotly
